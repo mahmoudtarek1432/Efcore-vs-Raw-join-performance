@@ -1,0 +1,9 @@
+select s2."Id", s2."Name", r."Name" as RowName, m."Title", msz."IsPushed" from "Matches" m  join "Stadiums" s ON m."StadiumId" = s."Id" 
+						 join "ZoneCategories" zc on zc."StadiumId" = s."Id" 
+						 join "Zones" z on z."ZoneCategoryId" = zc."Id" 
+						 join "Rows" r on r."ZoneId" = z."Id" 
+						 join "Seats" s2 on s2."RowId" = r."Id" 
+						 join "SeasonalTicketSeatings" sts  on s2."Id" = sts."SeatId" 
+						 join "SeasonalTickets" st  on sts."SeasonalTicketId" = st."Id"  
+						 join "MatchStadiumZones" msz ON msz."MatchId" = m."Id" 
+						 where msz."IsPushed"  = true 

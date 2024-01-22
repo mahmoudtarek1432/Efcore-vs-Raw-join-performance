@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eZ3z6hJ4UEt6el2whzctgThJEvxuWN5e8QrBnjvmrnNGeOolXAyq46kQCg/ZCxpsgp+4begd7WeOQ06GNNivoQ==",
+  "dgSpecHash": "Q6ZxZBBEs7lo3U/1v3TWFUM8Y5reNwVlYaGY7StvczLFBKrBnIFevvuIibDxux5rBLkNPouukQg8AaJ4vH/gxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mahmoud\\source\\repos\\mahmoudtarek1432\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahmoud\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mahmoud\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mahmoud\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mahmoud\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

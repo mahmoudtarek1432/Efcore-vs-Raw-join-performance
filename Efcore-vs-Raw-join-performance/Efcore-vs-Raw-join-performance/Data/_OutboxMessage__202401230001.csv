@@ -1,0 +1,1 @@
+"SequenceNumber","EnqueueTime","SentTime","Headers","Properties","InboxMessageId","InboxConsumerId","OutboxId","MessageId","ContentType","MessageType","Body","ConversationId","CorrelationId","InitiatorId","RequestId","SourceAddress","DestinationAddress","ResponseAddress","FaultAddress","ExpirationTime"

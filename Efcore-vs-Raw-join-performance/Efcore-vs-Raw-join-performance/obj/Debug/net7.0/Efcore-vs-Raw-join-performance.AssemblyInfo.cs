@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Efcore-vs-Raw-join-performance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bf85b36f4c9d58261566887c174cb87ec30b717")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Efcore-vs-Raw-join-performance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Efcore-vs-Raw-join-performance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

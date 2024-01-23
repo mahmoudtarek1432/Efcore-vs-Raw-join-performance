@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "7SulLiGrP8IlA6PuylGIyBpzpgvlMkLkO3rOlTvOia3qpr0/Q5BrSTQtvWAhUu4USmNCyiWjgSrVo7Rsnh0ffw==",
+  "dgSpecHash": "zFYjjQrnap7Ch5714MblUnNq1lZ6PBhNcvD2tbta74zUTNnHtJWAUwX6TSif9EwQ3je19FK00FcX/M8NPE4HBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mahmoud\\source\\repos\\mahmoudtarek1432\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\workspace\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance\\Efcore-vs-Raw-join-performance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.1\\microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.1\\microsoft.entityframeworkcore.analyzers.7.0.1.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.1\\microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\npgsql\\7.0.1\\npgsql.7.0.1.nupkg.sha512",
+    "C:\\Users\\spark\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.1\\npgsql.entityframeworkcore.postgresql.7.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

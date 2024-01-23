@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Efcore-vs-Raw-join-performance")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ed58777c9cdcbb612bdbe1eb1d82bb0c8fdfb0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Efcore-vs-Raw-join-performance")]

@@ -1,0 +1,54 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\fddaca8f-41a0-4897-9f7f-19785d758933
+// command took 1.36 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\fddaca8f-41a0-4897-9f7f-19785d758933
+// command took 12.11 sec and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\fddaca8f-41a0-4897-9f7f-19785d758933
+// command took 4.09 sec and exited with 0
+// ***** Done, took 00:00:17 (17.78 sec)   *****
+// Found 1 benchmarks:
+//   Approaches.BenchmarkEfExpression: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Approaches.BenchmarkEfExpression: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet fddaca8f-41a0-4897-9f7f-19785d758933.dll --anonymousPipes 1328 1316 --benchmarkName Efcore_vs_Raw_join_performance.Approaches.BenchmarkEfExpression --job Default --benchmarkId 0 in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\fddaca8f-41a0-4897-9f7f-19785d758933\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 7.0.5 (7.0.523.17405), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 424100.00 ns, 424.1000 us/op
+WorkloadJitting  1: 1 op, 15635219400.00 ns, 15.6352 s/op
+
+WorkloadWarmup   1: 1 op, 14188236300.00 ns, 14.1882 s/op
+WorkloadWarmup   2: 1 op, 13106045600.00 ns, 13.1060 s/op
+WorkloadWarmup   3: 1 op, 13528798500.00 ns, 13.5288 s/op
+WorkloadWarmup   4: 1 op, 12956585200.00 ns, 12.9566 s/op
+WorkloadWarmup   5: 1 op, 13622788600.00 ns, 13.6228 s/op
+WorkloadWarmup   6: 1 op, 13038710100.00 ns, 13.0387 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 13168418400.00 ns, 13.1684 s/op
+WorkloadActual   2: 1 op, 13630511400.00 ns, 13.6305 s/op
+WorkloadActual   3: 1 op, 12808562000.00 ns, 12.8086 s/op
+WorkloadActual   4: 1 op, 13704160300.00 ns, 13.7042 s/op
+WorkloadActual   5: 1 op, 13075575400.00 ns, 13.0756 s/op
+WorkloadActual   6: 1 op, 13570379200.00 ns, 13.5704 s/op
+WorkloadActual   7: 1 op, 13180083500.00 ns, 13.1801 s/op
+WorkloadActual   8: 1 op, 13498343400.00 ns, 13.4983 s/op
+WorkloadActual   9: 1 op, 13167084100.00 ns, 13.1671 s/op
+WorkloadActual  10: 1 op, 13134675400.00 ns, 13.1347 s/op
+WorkloadActual  11: 1 op, 14118867000.00 ns, 14.1189 s/op
+WorkloadActual  12: 1 op, 12723811400.00 ns, 12.7238 s/op
+WorkloadActual  13: 1 op, 13774202500.00 ns, 13.7742 s/op
+WorkloadActual  14: 1 op, 13149043100.00 ns, 13.1490 s/op

@@ -1,0 +1,58 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\a3622a83-5f4a-49aa-a8b3-9520ddd5a12b
+// command took 1.63 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\a3622a83-5f4a-49aa-a8b3-9520ddd5a12b
+// command took 4.06 sec and exited with 0
+// ***** Done, took 00:00:06 (6 sec)   *****
+// Found 2 benchmarks:
+//   Approaches.BenchmarkEfExpression: DefaultJob
+//   Approaches.BenchmarkNonSelected: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Approaches.BenchmarkEfExpression: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet a3622a83-5f4a-49aa-a8b3-9520ddd5a12b.dll --anonymousPipes 1400 1452 --benchmarkName Efcore_vs_Raw_join_performance.Approaches.BenchmarkEfExpression --job Default --benchmarkId 0 in D:\workspace\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\Efcore-vs-Raw-join-performance\bin\Release\net7.0\a3622a83-5f4a-49aa-a8b3-9520ddd5a12b\bin\Release\net7.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 7.0.5 (7.0.523.17405), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 387400.00 ns, 387.4000 us/op
+WorkloadJitting  1: 1 op, 16788422700.00 ns, 16.7884 s/op
+
+WorkloadWarmup   1: 1 op, 12919954800.00 ns, 12.9200 s/op
+WorkloadWarmup   2: 1 op, 13617650100.00 ns, 13.6177 s/op
+WorkloadWarmup   3: 1 op, 13257833400.00 ns, 13.2578 s/op
+WorkloadWarmup   4: 1 op, 13465144800.00 ns, 13.4651 s/op
+WorkloadWarmup   5: 1 op, 13034002300.00 ns, 13.0340 s/op
+WorkloadWarmup   6: 1 op, 13151063600.00 ns, 13.1511 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 13795882600.00 ns, 13.7959 s/op
+WorkloadActual   2: 1 op, 12951582100.00 ns, 12.9516 s/op
+WorkloadActual   3: 1 op, 13585404700.00 ns, 13.5854 s/op
+WorkloadActual   4: 1 op, 12793188400.00 ns, 12.7932 s/op
+WorkloadActual   5: 1 op, 13359247800.00 ns, 13.3592 s/op
+WorkloadActual   6: 1 op, 13240437400.00 ns, 13.2404 s/op
+WorkloadActual   7: 1 op, 13611275300.00 ns, 13.6113 s/op
+WorkloadActual   8: 1 op, 13483933900.00 ns, 13.4839 s/op
+WorkloadActual   9: 1 op, 13574783400.00 ns, 13.5748 s/op
+WorkloadActual  10: 1 op, 14073937600.00 ns, 14.0739 s/op
+WorkloadActual  11: 1 op, 13440838500.00 ns, 13.4408 s/op
+WorkloadActual  12: 1 op, 13633941400.00 ns, 13.6339 s/op
+WorkloadActual  13: 1 op, 13240774000.00 ns, 13.2408 s/op
+WorkloadActual  14: 1 op, 13986593800.00 ns, 13.9866 s/op
+WorkloadActual  15: 1 op, 13018167600.00 ns, 13.0182 s/op
+WorkloadActual  16: 1 op, 13583481400.00 ns, 13.5835 s/op
+WorkloadActual  17: 1 op, 13119882400.00 ns, 13.1199 s/op
+WorkloadActual  18: 1 op, 13501733200.00 ns, 13.5017 s/op
+WorkloadActual  19: 1 op, 13013819000.00 ns, 13.0138 s/op
